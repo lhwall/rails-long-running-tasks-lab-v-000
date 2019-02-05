@@ -7,7 +7,7 @@ class SongsController < ApplicationController
       |song|
       Song.create(song)
     end
-    reidrect_to songs_path
+    redirect_to songs_path
   end 
 
   def index
